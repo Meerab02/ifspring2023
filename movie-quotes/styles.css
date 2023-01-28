@@ -1,0 +1,58 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 8px;
+    font-size: 16px;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.ghost {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 11%;
+    float: right;
+    display: block;
+}
+
+.people {
+    margin-bottom: 60px;
+    margin-right: 8%;
+    float: right;
+    display: block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    font-size: 43px;
+    letter-spacing: 0.08em;
+    text-shadow: 0 0 5px rgb(0, 205, 0), 0 0 15px rgb(0, 205, 0);
+}
+
+h2 {
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+div {
+    margin-bottom: 50px;
+    margin-left: 10%;
+    float: left;
+    display: block;
+}
+
+.venkman {
+    color: rgba(121, 251, 121, 0.84);
+}
+
+.action {
+    color: rgba(255, 255, 255, 0.619);
+}
