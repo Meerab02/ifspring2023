@@ -1,0 +1,14 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h4 em {
+    color: black;
+}
+em {
+    font-weight: 200;
+    color: rgb(99, 99, 99);
+}
+
