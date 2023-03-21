@@ -1,0 +1,465 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background-image: url('../complete/images/coconut-macaroons-01.jpg');
+    background-size: cover;
+    display: flex;
+    max-width: 100%;
+} 
+
+.title {
+    text-align: right;
+    color: black;
+    margin-right: 10%;
+    margin-left: 57%;
+    padding: 32px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Cherry Swash', cursive;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.description {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#rating {
+    color: #FFBB68;
+}
+
+.reviews {
+    margin-left: 10px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.main-column {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+  text-transform: uppercase; 
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.set-up {
+    display: block;
+    width: 40%;
+    float: right;
+    margin-top: 0;
+}
+
+.stats {
+    float: right;
+    padding: 16px 0px;
+    background-color: #E1C8BA;
+    width: 100%;
+}
+
+.grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+
+}
+
+.grid li {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+}
+
+.grid h4 {
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.grid p {
+    font-weight: lighter;
+    margin: 0;
+    font-style: italic;
+    font-size: 17px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.one {
+    background-color: black;
+    color: white;
+}
+
+.two:hover {
+    background: black;
+    color: white;
+}
+
+.three:hover {
+    background: black;
+    color: white;
+}
+
+.prep img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 25px;
+    float: right;
+}
+
+.ingredients {
+    width: 53%;
+    margin: 0;
+    text-align: justify;
+}
+
+.ingredients li {
+    list-style:none;
+    line-height: 1.75em;
+    margin: 0;
+    font-size: 18px;
+}
+
+#ingredient-list h2 {
+    margin-bottom: 0;
+}
+
+input {
+    margin-right: 10px;
+}
+
+small {
+    font-style: italic;
+    color: gray;
+    font-size: 18px;
+}
+
+#allergens {
+    background-color:#E1C8BA;
+    padding: 8px 1px;
+    width: 46%;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#allergens h4 {
+    font-size: 25px;
+    margin: 0;
+    margin-left: 5%;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#allergens p {
+    margin: 0;
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.instructions {
+    width: 53%;
+    margin: 0;
+    text-align: justify;
+}
+
+.instructions li {
+    font-size: 18px;
+    line-height: 1.7em;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.process {
+    display: block;
+    width: 40%;
+    float: right;
+    margin-top: 0;
+}
+
+.bowl {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+}
+
+.sheet {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+    margin-top: 20px;
+}
+
+#one {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+    margin-top: 20px;
+}
+
+#two {
+    display:none;
+}
+
+.chocolate {
+    text-align: justify;
+    width: 54%;
+    margin: 0;
+    padding: 30px;
+    background-color: #E1C8BA;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.chocolate h4 {
+    font-size: 25px;
+    margin: auto;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.chocolate p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 12px;
+}
+
+.storage { 
+    padding: 36px 26px;
+    text-align: justify;
+    border: 4px solid #9C6A53;
+    width: 54%;
+    margin: 0;
+}
+
+.storage h2 {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.storage p {
+    width: 95%;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: auto;
+}
+
+footer {
+    background-color: #384150;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer a {
+    color:#E1C8BA;
+    font-weight: 400;
+    font-style:italic;
+}
+
+@media (max-width: 1599px) {
+    #allergens {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1440px) {
+    .storage { 
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    .chocolate {
+        width: 52%;
+    }
+
+    h3 {
+        font-size: 27px;
+    }
+    
+    .chocolate h4 {
+        font-size: 22px;
+    }
+    
+    .chocolate p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    button {
+        padding: 4px;
+        font-size: 14px;
+        margin-right: 3px;
+    }
+}
+
+@media (max-width: 1055px) {
+    button {
+        padding: 4px;
+        font-size: 10px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 1011px) {
+    .chocolate {
+        text-align: center;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 815px) {
+    header {
+        background-size: cover;
+        display: flex;
+        max-width: 100%;
+    } 
+    
+    .title {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    .main-column {
+        width: 100%;
+        margin: auto;
+    }
+
+    .set-up {
+        display: block;
+        width: 100%;
+        margin-top: auto;
+    }
+
+    .prep img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    #ingredient-list h2 {
+        margin-left: 8%;
+    }
+
+    .ingredients {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    #allergens {
+        width: 100%;
+    }
+
+    .process {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .bowl, .sheet, #one {
+        display: none;
+    }
+
+    #two {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    #instructions h2 {
+        margin-left: 8%;
+    }
+
+    .instructions {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .chocolate {
+        margin-bottom: 0;
+    }
+}
